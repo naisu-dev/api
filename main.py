@@ -8,4 +8,4 @@ webserver = Flask("api")
 def main():
     return(number(random.randrange(1, 26, 1)))
 
-webserver.run()
+webserver.run(host="0.0.0.0")
